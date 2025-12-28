@@ -1,0 +1,5 @@
+# 1. Install the system dependency SWIG first
+!apt-get install -y swig
+
+# 2. Then install the Python libraries
+!pip install gymnasium[box2d] stable-baselines3 shimmy moviepy
